@@ -1,20 +1,19 @@
 import { createContext, useState } from "react";
+export const Context = createContext();
 
-export const context = createContext();
-
-export const StoreContextProvider = ({ Children }) => {
+export const StoreContextProvider = ({ children }) => {
 
 
-    const [hello, setHello] = useState(0)
+    const [hello, setHello] = useState(0);
+    const [rahad,setRahad] = useState('fock you, you can do it')
     const contextVelu = {
         hello,
-        setHello
+        setHello,
+        rahad,
+        setRahad
     }
-
-
-
-
-    return <context.Provider value={contextVelu} >
-        {Children}
-    </context.Provider>
+    return (<Context.Provider value={contextVelu} >
+        {children}
+    </Context.Provider>
+    )
 }

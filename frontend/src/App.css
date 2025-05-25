@@ -1,5 +1,21 @@
 @media (max-width: 475px) {
-    .sm-text-danger{
+    .sm-text-danger {
         color: red;
     }
+}
+
+.linear-text {
+   background: linear-gradient(to right, green,black);
+   -webkit-background-clip: text;
+   background-clip: text;
+   color: transparent;
+   -webkit-text-fill-color: transparent;
+}
+
+li{
+    color: black;
+}
+ul li:hover{
+   cursor: pointer;
+    color: rgb(12, 80, 12);
 }
