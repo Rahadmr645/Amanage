@@ -3,7 +3,7 @@ import './App.css'
 import Home from './pages/Home'
 const App = () => {
   return (
-    <div className='ms-3'>
+    <div className=''>
     <Home/>
     </div>
 

@@ -1,0 +1,5 @@
+@media (max-width: 475px) {
+    .sm-text-danger{
+        color: red;
+    }
+}
