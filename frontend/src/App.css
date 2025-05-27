@@ -1,7 +1,4 @@
-
-*{
-
-}
+* {}
 
 .linear-text {
     background: linear-gradient(to right, green, black);
@@ -35,19 +32,28 @@ ul li:hover {
 
 .ecosystem {
     width: 500px;
-    
+
+}
+
+.para-text p {
+    max-width: 300px;
+}
+
+.about-container h2 {
+    max-width: 800px;
 }
 
 @media (max-width: 475px) {
-    .main-continar{
+    .main-continar {
         width: 470px;
-        
+
     }
 
     .landing {
         width: 400px;
 
     }
+
     .second-part-text {
         display: flex;
         flex-direction: column;
@@ -58,7 +64,7 @@ ul li:hover {
     }
 
     .second-part-text p {
-        max-width: 700px;
+        max-width: 400px;
 
     }
 
@@ -68,16 +74,36 @@ ul li:hover {
         margin-right: 100px;
     }
 
-    .main-navbar{
+    .main-navbar {
         width: 475px;
-        background-color:gray;
+        background-color: gray;
     }
-   .presslogos{
-      width: 470px;
-   }
-   .footer{
-    width: 475px;
-    display: flex;
-    padding-left: 50px;
-   }
+
+    .presslogos {
+        width: 470px;
+    }
+
+    .footer {
+        width: 475px;
+        display: flex;
+        padding-left: 50px;
+    }
+
+    .about-container {
+        width: 475px;
+        padding: 10px;
+
+    }
+
+    .about-container h2 {
+        max-width: 400px;
+        padding-top: 10px;
+    }
+
+    .para-text {
+        display: flex;
+        flex-direction: column;
+        padding-left: 10px;
+        
+    }
 }
