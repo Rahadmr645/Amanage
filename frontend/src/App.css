@@ -43,6 +43,30 @@ ul li:hover {
     max-width: 800px;
 }
 
+.bio {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    padding: 10px 15px;
+    margin-Top: 10px;
+}
+.size-pic{
+    width: 295px;
+    height: 295px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 70px;
+    padding-left: 100px;
+}
+.stap-pic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
 @media (max-width: 475px) {
     .main-continar {
         width: 470px;
@@ -104,6 +128,6 @@ ul li:hover {
         display: flex;
         flex-direction: column;
         padding-left: 10px;
-        
+
     }
 }
