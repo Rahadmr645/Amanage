@@ -1,21 +1,83 @@
-@media (max-width: 475px) {
-    .sm-text-danger {
-        color: red;
-    }
+
+*{
+
 }
 
 .linear-text {
-   background: linear-gradient(to right, green,black);
-   -webkit-background-clip: text;
-   background-clip: text;
-   color: transparent;
-   -webkit-text-fill-color: transparent;
+    background: linear-gradient(to right, green, black);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
 }
 
-li{
+.landing {
+    width: 580px;
+    height: 300px;
+}
+
+.navbar-toggler-icon {
+    filter: invert(30%) sepia(100%) saturate(2000%) hue-rotate(180deg);
+}
+
+li {
     color: black;
 }
-ul li:hover{
-   cursor: pointer;
+
+ul li:hover {
+    cursor: pointer;
     color: rgb(12, 80, 12);
+}
+
+.second-part-text p {
+    max-width: 400px;
+}
+
+.ecosystem {
+    width: 500px;
+    
+}
+
+@media (max-width: 475px) {
+    .main-continar{
+        width: 470px;
+        
+    }
+
+    .landing {
+        width: 400px;
+
+    }
+    .second-part-text {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-left: 0px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .second-part-text p {
+        max-width: 700px;
+
+    }
+
+    .ecosystem {
+        width: 470px;
+        height: 400px;
+        margin-right: 100px;
+    }
+
+    .main-navbar{
+        width: 475px;
+        background-color:gray;
+    }
+   .presslogos{
+      width: 470px;
+   }
+   .footer{
+    width: 475px;
+    display: flex;
+    padding-left: 50px;
+   }
 }

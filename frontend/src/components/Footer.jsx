@@ -9,9 +9,9 @@ import { FaTelegram } from "react-icons/fa";
 const Footer = () => {
 
     return (
-        <div style={{backgroundColor:'rgb(245, 237, 237)'}}>
-            <div className='p-4  d-flex justify-content-between mt-5'>
-                <div className='d-flex flex-column'>
+        <footer style={{backgroundColor:'rgb(245, 237, 237)',height:'auto'}} className='footer row'>
+            <div className='p-4  d-flex flex-column  gap-md-0 gap-5 flex-md-row justify-content-between mt-5'>
+                <div className='d-flex  flex-column'>
                     <p className=' h3 linear-text'>ZERODHA</p>
                     <p >2010-2025, Zerodha Broking Ltd. <br />
                         All rights reserved.</p>
@@ -93,7 +93,7 @@ const Footer = () => {
                     </ul>
                 </div>
             </div>
-        </div>
+        </footer>
     )
 }
 

@@ -9,42 +9,42 @@ import indexEcu from '../assets/index-education.svg'
 
 const Landing = () => {
     return (
-        <div>
+        <div className='main-continar ms-lg-5 '>
             {/* 1st part */}
-            <div className='d-flex flex-column align-items-center' style={{ marginTop: '100px' }}>
-                <img style={{ width: '580px', height: '300px' }} src={landing}  alt="" />
+            <div className='d-flex flex-column align-items-center ' style={{ marginTop: '100px' }}>
+                <img className='landing' src={landing} alt="" />
                 <div className='d-flex flex-column align-items-center mt-4'>
                     <h1>Invest in everything</h1>
                     <p >Online platform to invest in stocks, derivatives, mutual funds, ETFs, bonds, and more.</p>
-                    <button style={{width:'300px'}} className='btn btn-primary mt-3'>
+                    <button style={{ width: '300px' }} className='btn btn-primary mt-3'>
                         Sign up for free
                     </button>
                 </div>
             </div>
 
             {/* second part */}
-            <div className='d-flex justify-content-between' style={{ marginTop: '200px' }}>
-                <div className='col-6'>
+            <div className='d-lg-flex  justify-content-between  row' style={{ marginTop: '200px' }}>
+                <div className=' d-sm-flex flex-sm-column flex-md-none flex-lg-none  second-part-text col-lg-6'>
                     <h2>Trus with confidence</h2>
                     <div>
                         <h3>Customer-first always</h3>
-                        <p style={{ maxWidth: '400px' }}>That's why 1.6+ crore customers trust Zerodha with ~ ₹6 lakh crores of equity investments and contribute to 15% of daily retail exchange volumes in India.</p>
+                        <p>That's why 1.6+ crore customers trust Zerodha with ~ ₹6 lakh crores of equity investments and contribute to 15% of daily retail exchange volumes in India.</p>
                     </div>
                     <div>
                         <h3>No spam or gimmicks</h3>
-                        <p style={{ maxWidth: '400px' }}>No gimmicks, spam, "gamification", or annoying push notifications. High quality apps that you use at your pace, the way you like. Our philosophies.</p>
+                        <p >No gimmicks, spam, "gamification", or annoying push notifications. High quality apps that you use at your pace, the way you like. Our philosophies.</p>
                     </div>
                     <div>
                         <h3>The Zerodha universe</h3>
-                        <p style={{ maxWidth: '400px' }}>Not just an app, but a whole ecosystem. Our investments in 30+ fintech startups offer you tailored services specific to your needs.</p>
+                        <p >Not just an app, but a whole ecosystem. Our investments in 30+ fintech startups offer you tailored services specific to your needs.</p>
                     </div>
                     <div>
                         <h3>Do better with money</h3>
-                        <p style={{ maxWidth: '400px' }}>With initiatives like <span>Nudge</span>  and <span>Kill Switch</span>, we don't just facilitate transactions, but actively help you do better with your money.</p>
+                        <p >With initiatives like <span>Nudge</span>  and <span>Kill Switch</span>, we don't just facilitate transactions, but actively help you do better with your money.</p>
                     </div>
                 </div>
-                <div className='col-6'>
-                    <img style={{ width: '500px' }} src={ecosystem} alt="" />
+                <div className='col-lg-6 '>
+                    <img className='ecosystem' src={ecosystem} alt="" />
                     <ul className='nav d-flex gap-3 mt-4'>
                         <li>Explore our products <span><FaArrowRightLong /></span></li>
                         <li>Try Kite demo <span><FaArrowRightLong /></span> </li>
@@ -52,14 +52,16 @@ const Landing = () => {
                 </div>
             </div>
             <div className='mt-4 mb-5 d-flex justify-content-center'>
-                <img src={presslogos} alt="" />
+                <img className='presslogos' src={presslogos} alt="" />
             </div>
             {/* third part */}
             <div className='mt-4 d-flex flex-column gap-3'>
+                 <div>
                 <h1>Unbeatable pricing</h1>
-                <div className='d-flex align-items-center justify-content-between '>
-                    <p className='col-6' style={{ maxWidth: '500px' }}>We pioneered the concept of discount broking and price transparency in India. Flat fees and no hidden charges.</p>
-                    <div className='d-flex gap-5 col-6'>
+                </div>
+                <div className='d-flex flex-md-row flex-sm-column  align-items-center justify-content-between row '>
+                    <p className='col-lg-6' style={{ maxWidth: '500px' }}>We pioneered the concept of discount broking and price transparency in India. Flat fees and no hidden charges.</p>
+                    <div className='d-flex gap-5 col-lg-6'>
                         <div className='d-flex align-items-center position-relative'>
                             <img style={{ width: '100px' }} src={pricingo} alt="" />
                             <p style={{ fontSize: '10px', margin: '0px', maxWidth: '70px', position: 'absolute', right: '-40px', bottom: '15px' }}> Free account opening</p>
@@ -89,7 +91,6 @@ const Landing = () => {
                             <ul className='nav'>
                                 <li>Varsity <span><FaArrowRightLong /></span> </li>
                             </ul>
-
                         </div>
                         <div>
                             <ul className='nav'>
@@ -107,7 +108,7 @@ const Landing = () => {
             <div className='d-flex flex-column gap-4 align-items-center mt-5 '>
                 <h1>Open a Zerodha account</h1>
                 <p>Modern platforms and apps, ₹0 investments, and flat ₹20 intraday and F&O trades.</p>
-                <button style={{width:'300px'}} className='btn btn-primary '>Sign up for free</button>
+                <button style={{ width: '300px' }} className='btn btn-primary '>Sign up for free</button>
             </div>
         </div>
     )

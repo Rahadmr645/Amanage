@@ -2,7 +2,7 @@ import React from 'react'
 import Landing from './Landing'
 const Home = () => {
   return (
-    <div style={{height:'auto',paddingLeft:'95px'}}  className='ms-3 me-3 mt-5 ' >
+    <div style={{height:'auto'}}  className='ms-lg-3  mt-5 ' >
       <Landing/>
     </div>
   )
